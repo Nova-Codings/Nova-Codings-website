@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Codings | website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Nova_Codings-logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('img/bg.gif'); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: black;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: black;
+        }
+        .service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .service-image {
+    flex: 0 0 300px;
+    margin-right: 20px;
+  }
+
+  .service-image img {
+    width: 450px;
+    height: 323px;
+    box-shadow: 5px 10px 10px rgba(240, 45, 45, 0.904);
+  }
+
+  .service-content {
+    flex: 1;
+  }
+
+  .service-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .service-description {
+    margin-bottom: 20px;
+  }
+
+  .header {
+            background-image: url('img/site.png');
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            box-shadow: 0 4px 5px #f82c47;
+            margin-top: -100px;
+            height: 37vh;
+        }
+        .cta {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .cta a{
+            color: blue;
+        }
+        h2 {
+            color: #fff;
+            text-align: center;
+        }
+
+        p {
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a id="scroll-to-top" href="#top" title="Go to top">UP</a>
+
+    <header>
+      <header>
+        <nav id="nav">
+          <ul>
+              <li><a href="#home"><i class="fa fa-fw fa-home" id="home-icon"></i> Home</a></li>
+              <li><a href="#about"><i class="fa fa-fw fa-info-circle" id="about-icon"></i> About Us</a></li>
+              <li class="dropdown">
+                  <a href="#services-section" class="dropbtn"><i class="fa fa-fw fa-cogs" id="services-icon"></i> Services</a>
+                  <div class="dropdown-content">
+                      <a href="websites.html">Website</a>
+                      <a href="graphic.html">Graphic</a>
+                      <a href="assignments.html">Assignment</a>
+                  </div>
+              </li>
+              <img src="img/logo.png" alt="Nova Codings Logo" id="navbar-logo">
+              <li><a href="#projects-section"><i class="fa fa-fw fa-folder" id="projects-icon"></i> Projects</a></li>
+              <li><a href="#pricelist-section"><i class="fa fa-fw fa-money" id="pricelist-icon"></i> PriceList</a></li>
+              <li><a href="#contact-section"><i class="fa fa-fw fa-envelope" id="contact-icon"></i> Contact Us</a></li>
+          </ul>
+      </nav>   
+    
+        <button class="hamburger" onclick="toggleNav()"><i class="fa fa-bars"></i></button>
+    </header>
+  
+      <div class="header">
+        <h1></h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Designing Tomorrow, Coding Today.</p>
+    </div>
+ 
+
+  <section class="renovation-section">
+    <div>
+      <div class="service" id="service1">
+        <div class="service-image">
+          <img src="img/Sali.png" alt="Service Image 1">
+        </div>
+        <div class="service-content">
+          <h2 class="service-title">HOME PAGE</h2>
+          <p class="service-description">In the digital era, a captivating homepage sets the first impression. At Nova Codings, we believe in crafting intuitive, user-centric homepages that immediately convey your brand's message. We merge aesthetics with functionality, ensuring your visitors are engaged from the first click.</p>
+        </div>
+      </div>
+  
+      <div class="service" id="service2">
+        <div class="service-image">
+          <img src="img/aboutus.png" alt="Service Image 2">
+        </div>
+        <div class="service-content">
+          <h2 class="service-title">About Us</h2>
+          <p class="service-description">Nova Codings isn't just a digital services provider; we are your partners in weaving the digital fabric of your brand. With a blend of experienced developers, creative designers, and passionate content creators, we bring a holistic approach to digital solution crafting.</p>
+        </div>
+      </div>
+  
+      <div class="service" id="service3">
+        <div class="service-image">
+          <img src="img/salik.png" alt="Service Image 3">
+        </div>
+        <div class="service-content">
+          <h2 class="service-title">Services</h2>
+          <p class="service-description">From web development to graphic design, from SEO optimization to e-commerce solutions, Nova Codings stands as a one-stop destination for all your digital needs. Our team thrives on challenges and believes in delivering tailored solutions that resonate with your brand's ethos.</p>
+        </div>
+      </div>
+
+      <div class="service" id="service3">
+        <div class="service-image">
+          <img src="img/project.png" alt="Service Image 3">
+        </div>
+        <div class="service-content">
+          <h2 class="service-title">Our Project</h2>
+          <p class="service-description">Our portfolio speaks volumes about our expertise. At Nova Codings, we've had the privilege to work on diverse projects, each presenting its unique challenges and learning curves. Dive into our projects to witness the blend of creativity, technology, and innovation.</p>
+        </div>
+      </div>
+
+      <div class="service" id="service3">
+        <div class="service-image">
+          <img src="img/contact.png" alt="Service Image 3">
+        </div>
+        <div class="service-content">
+          <h2 class="service-title">Contact Us</h2>
+          <p class="service-description">Got a vision? Let's bring it to life! Reach out to the Nova Codings team to discuss your next project, get a quote, or simply chat about the world of digital innovations. We're here to help and can't wait to hear from you.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+        <!-- Call to action section -->
+        <div class="cta">
+            <h2>Ready to boost your business?</h2>
+            <p>Contact us today for a customized digital marketing strategy!</p>
+            <a href="contact.html" class="btn">Get Started</a>
+        </div>
+    </div>
+
+    <footer>
+      <p class="footer-content">
+        <div class="footer-icons-left">
+          <a href="https://wa.me/062 74 3417" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/your-instagram-profile" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <img src="img/Nova_Codings-logo.png" alt="Nova Icon" style="height: 50px; vertical-align: middle;">
+        &copy; 2019 Nova Codings. All rights reserved.
+        <div class="footer-icons-right">
+          <a href="https://github.com/Nova-Codings" target="_blank" class="social-icon github"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/novacodings" target="_blank" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </p>
+    </footer>
+    
+      <script src="script.js"></script>
+</body>
+</html>

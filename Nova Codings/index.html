@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Codings | Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/Nova_Codings-logo.png" type="image/x-icon">
+</head>
+<body class="home-page">
+	<a id="scroll-to-top" href="#top" title="Go to top">UP</a>
+
+  <header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#home"><i class="fa fa-fw fa-home" id="home-icon"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-fw fa-info-circle" id="about-icon"></i> About Us</a></li>
+        <li><a href="#services-section"><i class="fa fa-fw fa-cogs" id="services-icon"></i> Services</a>    </li> 
+        <img src="img/logo.png" alt="Nova Codings Logo" id="navbar-logo">
+        <li><a href="#projects-section"><i class="fa fa-fw fa-folder" id="projects-icon"></i> Projects</a></li>
+        <li><a href="#pricelist-section"><i class="fa fa-fw fa-money" id="pricelist-icon"></i> PriceList</a></li>
+        <li><a href="#contact-section"><i class="fa fa-fw fa-envelope" id="contact-icon"></i> Contact Us</a></li>        
+      </ul>
+    </nav>
+
+    <button class="hamburger" onclick="toggleNav()"><i class="fa fa-bars"></i></button>
+</header>
+
+
+
+    <section id="hero" style="display: flex;">
+      <div class="hero-container">
+          <div>
+              <h1>Hello, <span></span></h1>
+              <h1>Welcome to <span></span></h1>
+              <h1><img src="img/Nova_Codings-logo.png" alt="Nova Icon" style="height: 50px; vertical-align: middle;"> Nova Codings <span></span></h1>
+              <button class="btn-17">
+                <span class="text-container">
+                  <span class="text"><a href="projects.html">Portfolio</a></span>
+                </span>
+              </button>              
+          </div>
+      </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="image">
+        <img src="img/Nova_Codings-logo.png">
+      </div>
+      <div class="text">
+        <h2 style="text-align:center">About Us</h2>
+        <hr>
+        <p>Nova Codings is a leading digital solutions provider. We pride ourselves on delivering top-notch web designs, graphic creations, and academic assistance. Our passion for creativity and excellence is what drives us to help businesses and individuals make a lasting impression in the digital world.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h1>Our Services</h1>
+      <hr>
+      <div class="card-group">
+        <a href="websites.html" class="card">
+          <i class="fas fa-laptop fa-5x"></i>
+          <div class="card-overlay">
+            <div class="card-label">
+              <h3 class="websites-text">Websites</h3>
+            </div>
+          </div>
+        </a>
+        
+        <a href="graphic.html" class="card">
+          <i class="fas fa-paint-brush fa-5x"></i>
+          <div class="card-overlay">
+            <div class="card-label">
+              <h3 class="graphic-text">Graphic</h3>
+            </div>
+          </div>
+        </a>
+        
+        <a href="assignments.html" class="card">
+          <i class="fas fa-file-alt fa-5x"></i>
+          <div class="card-overlay">
+            <div class="card-label">
+              <h3 class="assignments-text">Assignments</h3>
+            </div>
+          </div>
+        </a>
+            
+      </div>
+    </div>
+  </section>
+  
+  <section id="projects">
+    <h2 style="text-align:center">Our projects</h2>
+    <hr>
+
+ <!-- Filter buttons -->
+ <button class="btn active" data-filter="all">Show all</button>
+ <button class="btn" data-filter="nature">Website</button>
+ <button class="btn" data-filter="cars">Graphics</button>
+ <button class="btn" data-filter="people">Assignments</button>
+   
+    <!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column cars">
+    <div class="content">
+      <img src="img/animated logo.gif" alt="Car" style="width:100%">
+      <h4>Intro</h4>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="img/Sali.png" alt="Mountains" style="width:100%">
+      <h4>Home Page</h4>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="img/about.png" alt="Mountains" style="width:100%">
+      <h4>About Us</h4>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="img/salik.png" alt="Lights" style="width:100%">
+      <h4>Services Page</h4>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="img/contact.png" alt="Nature" style="width:100%">
+      <h4>Contact Us</h4>
+    </div>
+  </div>
+  
+ 
+  <div class="column cars">
+    <div class="content">
+    <img src="img/busie businesscard.jpg" alt="Car" style="width:100%">
+      <h4>Business Cards</h4>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="img/mbedzi.png" alt="Car" style="width:100%">
+      <h4>Business Cards</h4>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="img/cidor.jpg" alt="Car" style="width:100%">
+      <h4>Logo Design</h4>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="img/Ellicidor.png" alt="Car" style="width:100%">
+      <h4>Logo Design</h4>
+    </div>
+  </div>
+  <div class="column cars t-shirt">
+    <div class="content">
+      <img src="img/IMG-20220611-WA0015.jpg" alt="Car">
+      <h4>T-shirt design</h4>
+    </div>
+  </div>  
+  <div class="column cars t-shirt">
+    <div class="content">
+      <img src="img/IMG-20220611-WA0018.jpg" alt="Car">
+      <h4>T-shirt design</h4>
+    </div>
+  </div>  
+  <div class="column cars">
+    <div class="content">
+    <img src="img/Image Invitation.png" alt="Car" style="width:100%">
+      <h4>Image Invitation</h4>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="img/Video invitation.gif" alt="Car" style="width:100%">
+      <h4>Video Invitation</h4>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="img/company profile.gif" alt="Car" style="width:100%">
+      <h4>Company Profile design</h4>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="img/programme.jpg" alt="Car" style="width:100%">
+      <h4>Event Program</h4>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="img/brochure.gif" alt="Car" style="width:100%">
+      <h4>Brochure</h4>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="img/AssAhead.png" alt="Car" style="width:100%">
+      <h4>Test/ Exam</h4>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="img/assignmenthelp.png" alt="Car" style="width:100%">
+      <h4>Assignment</h4>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+    
+  </section>
+  
+  <section id="pricelist">
+    <h2>Our Pricelist</h2>
+    <hr>
+    <div class="prices-grid">
+        <div class="price-item">
+          <i class="fas fa-globe"></i>
+            <h3>Web Design</h3>
+            <p>From R1500</p>
+        </div>
+        <div class="price-item">
+          <i class="fas fa-pencil-ruler"></i>
+            <h3>Logo Design</h3>
+            <p>R200</p>
+        </div>
+        <div class="price-item">
+          <i class="far fa-address-card"></i>
+            <h3>Business Card Design</h3>
+            <p>R180</p>
+        </div>
+        <div class="price-item">
+          <i class="fas fa-file-alt"></i>
+          <h3>Letterhead Design</h3>
+          <p>R200</p>
+      </div>
+        <div class="price-item">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>Event Program Design</h3>
+          <p>R300</p>
+      </div>
+      <div class="price-item">
+        <i class="fas fa-envelope"></i>
+        <h3>Invitation Cards</h3>
+        <p>R200</p>
+    </div>
+        <div class="price-item">
+          <i class="fas fa-image"></i>
+          <h3>Image Invitation</h3>
+          <p>R200</p>
+      </div>
+      <div class="price-item">
+        <i class="fas fa-video"></i>
+        <h3>video Invitation</h3>
+        <p>R350</p>
+    </div>
+    <div class="price-item">
+      <i class="fas fa-building"></i>
+      <h3>Company Profile</h3>
+      <p>R900</p>
+  </div>
+  <div class="price-item">
+    <i class="fas fa-tshirt"></i>
+    <h3>T-shirt Design</h3>
+    <p>R350</p>
+</div>
+<div class="price-item">
+  <i class="fas fa-file-image"></i>
+  <h3>Poster</h3>
+  <p>R350</p>
+</div>
+        <div class="price-item">
+          <i class="fas fa-book"></i>
+            <h3>Assignment Assistance</h3>
+            <p>Contact for Quote</p>
+            <a href="contact.html" class="btn">Get Started</a>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <hr>
+    <p>For inquiries or to discuss your digital design and development needs, please reach out to Nova Codings using the contact details below:</p>
+    <div class="contact-info">
+      <div class="info-item">
+        <img src="img/whatsapp.png" alt="Phone Icon">
+        <h3>Phone / WhatsApp</h3>
+        <p>+2762 714 3417</p>
+      </div>
+      <div class="info-item">
+        <img src="img/gmail.png" alt="Email Icon">
+        <h3>Email</h3>
+        <a href="mailto:novacodings@gmail.com" class="text-primary">novacodings@gmail.com</a>
+      </div>
+      <div class="info-item">
+        <img src="img/working hours.png" alt="Working hours Icon">
+        <h3>Working Hours</h3>
+        <div class="time-table">
+            <div class="time-row">
+                <p>Monday - Friday</p>
+                <p>08:00 - 16:30</p>
+            </div>
+            <div class="time-row">
+                <p>Saturday</p>
+                <p>09:00 - 13:00</p>
+            </div>
+        </div>
+    </div>    
+    </div>
+    
+  </section>
+
+  
+<footer>
+  <p class="footer-content">
+    <div class="footer-icons-left">
+      <a href="https://wa.me/062 74 3417" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/your-instagram-profile" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <img src="img/Nova_Codings-logo.png" alt="Nova Icon" style="height: 50px; vertical-align: middle;">
+    &copy; 2019 Nova Codings. All rights reserved.
+    <div class="footer-icons-right">
+      <a href="https://github.com/Nova-Codings" target="_blank" class="social-icon github"><i class="fab fa-github"></i></a>
+      <a href="https://www.facebook.com/novacodings" target="_blank" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </p>
+</footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
